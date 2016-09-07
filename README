@@ -1,0 +1,11 @@
+picolisp bcrypt library adapted from py-bcrypt (https://bitbucket.org/alexandrul/py-bcrypt)
+
+key modifications:
+1. remove python specific files
+2. add EXPORTS for GetProcAddress support on windows
+
+building for linux:
+make
+
+building for midipix:
+make CC=x86_64-nt64-midipix-gcc
